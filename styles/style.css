@@ -8,3 +8,36 @@
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
+/* ! resizing the logo */
+.navbar-brand img {
+	max-width: 120px;
+}
+
+/* ! over righting bootstrap nav toggler styles  */
+.navbar-toggler {
+	border: none;
+}
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+
+/* ! custom button */
+.j-btn-primary {
+	background-color: #b68c5a;
+	color: #fff;
+}
+.j-btn-primary:hover {
+	background-color: #b67e38;
+	color: #fff;
+}
+/* ! banner styles */
+.banner {
+	min-height: 80vh;
+	padding: 100px 0;
+	background-image: url('../images/Rectangle\ 6.png');
+	background-size: cover;
+	background-position: center;
+}
+.banner-wrapper {
+	max-width: 800px;
+}
