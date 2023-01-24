@@ -67,6 +67,9 @@ section {
 	height: 100px;
 }
 
+.gradient-bg {
+	background: linear-gradient(rgb(233, 233, 233), rgb(255, 255, 255));
+}
 /* ! clients feedback section */
 .carousel-item-1 {
 	background-image: url('../images/carousel-1.jpg');
