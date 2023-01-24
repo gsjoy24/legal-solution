@@ -12,7 +12,7 @@ p {
 	font-size: 14px;
 }
 section {
-	padding: 100px 0;
+	padding-top: 100px;
 }
 .section-info {
 	max-width: 700px;
@@ -56,10 +56,39 @@ section {
 .banner-wrapper {
 	max-width: 800px;
 }
-
+/* ! resizing the img in legal section */
 .legal-img {
 	width: 100px;
 	height: 100px;
+}
+
+/* ! clients feedback section */
+.carousel-item-1 {
+	background-image: url('../images/carousel-1.jpg');
+}
+.carousel-item-2 {
+	background-image: url('../images/carousel-2.jpg');
+}
+.carousel-item-3 {
+	background-image: url('../images/carousel-3.jpg');
+}
+.carousel-item-1,
+.carousel-item-2,
+.carousel-item-3 {
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.48);
+	background-blend-mode: overlay;
+}
+
+.client-img {
+	width: 100px;
+	height: 100px;
+	/* border: 5px solid #fff; */
+}
+.carousel-description {
+	max-width: 650px;
+	margin: auto;
+	padding: 0 10px;
 }
 @media only screen and (max-width: 768px) {
 	.header-title {
