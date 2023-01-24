@@ -69,7 +69,7 @@
 								<li class="nav-item">
 									<a class="nav-link" href="#">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
 								</li>
-								<!--trigger button for modal -->
+								<!--trigger button for modal for mobile device-->
 								<div class="d-block d-lg-none">
 									<button class="btn j-btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
 										Free Consultation
@@ -78,7 +78,7 @@
 							</ul>
 						</div>
 
-						<!--trigger button for modal -->
+						<!--trigger button for modal for large screen-->
 						<div class="d-none d-lg-block">
 							<button class="btn j-btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
 								Free Consultation
@@ -88,10 +88,10 @@
 				</nav>
 
 				<!-- banner -->
-				<div class="banner text-center text-white d-flex justify-content-center align-items-center rounded-4">
+				<div class="banner text-center d-flex justify-content-center align-items-center rounded-4">
 					<div class="banner-wrapper px-5">
-						<h1 class="header-title">We Provide Effective Legal Solutions</h1>
-						<p>
+						<h1 class="header-title text-white">We Provide Effective Legal Solutions</h1>
+						<p class="text-white">
 							There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
 							in some form, by injected humour.
 						</p>
@@ -99,7 +99,7 @@
 						<!-- ! search option -->
 						<div class="d-flex flex-column flex-md-row p-3 gap-2 justify-content-center">
 							<input
-								class="search-input p-2 px-md-3 py-md- 2 border-0 shadow rounded-2"
+								class="search-input border-0 form-control p-2 px-md-3 py-md- 2 shadow rounded-2"
 								type="text"
 								placeholder="Search your services"
 							/>
@@ -120,7 +120,7 @@
 						<div class="modal-body">No free consultation available now!</div>
 						<div class="modal-footer">
 							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-							<button type="button" class="btn btn-primary">Ok</button>
+							<button type="button" class="btn j-btn-primary">Ok</button>
 						</div>
 					</div>
 				</div>
@@ -132,7 +132,7 @@
 			<div class="container">
 				<!-- section title -->
 				<div class="section-info">
-					<h2>The Legal Practice Area</h2>
+					<h2 class="mb-4">The Legal Practice Area</h2>
 					<p>
 						There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
 						some form, by injected humour.
@@ -219,7 +219,7 @@
 		<section>
 			<div class="container">
 				<div class="section-info">
-					<h2>What Our Client Say</h2>
+					<h2 class="mb-4">What Our Client Say</h2>
 					<p>
 						There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
 						some form, by injected humour.
@@ -335,7 +335,7 @@
 			<div class="container">
 				<!-- section info -->
 				<div class="section-info">
-					<h2>Frequently Asked Any Questions</h2>
+					<h2 class="mb-4">Frequently Asked Any Questions</h2>
 					<p>
 						There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
 						some form, by injected humour.
@@ -468,6 +468,88 @@
 					<div class="faq-img order-0 order-lg-1">
 						<img class="img-fluid d-block m-auto mb-5 mb-lg-0" src="images/faq.png" alt="faq" />
 					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--! contact section -->
+		<section>
+			<div class="container">
+				<!-- section info -->
+				<div class="section-info">
+					<h2 class="mb-4">Frequently Asked Any Questions</h2>
+					<p>
+						There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+						some form, by injected humour.
+					</p>
+				</div>
+
+				<!-- form and info -->
+				<div class="row row-cols-1 row-cols-lg-2 align-items-center py-5">
+					<!-- info -->
+					<div class="row row-cols-1 row-cols-sm-2 m-auto order-1 order-lg-0">
+						<!-- first card -->
+						<div class="col contact-bg-color mb-3 mb-md-0 border-dark-subtle border-bottom border-end">
+							<div class="p-5 text-center">
+								<img src="images/location.png" alt="address" />
+								<h5 class="my-3">Address</h5>
+								<small>
+									A108 Adam Street, <br />
+									New York, NY 535022
+								</small>
+							</div>
+						</div>
+
+						<!-- second card -->
+						<div class="col contact-bg-color mb-3 mb-md-0">
+							<div class="p-5 text-center">
+								<img src="images/call.png" alt="call" />
+								<h5 class="my-3">Call Us</h5>
+								<small>
+									+88 01750 00 00 00 <br />
+									+88 01750 00 00 00
+								</small>
+							</div>
+						</div>
+
+						<!-- third card -->
+						<div class="col contact-bg-color mb-3 mb-md-0">
+							<div class="p-5 text-center">
+								<img src="images/email.png" alt="Email Us" />
+								<h5 class="my-3">Email Us</h5>
+								<small>
+									info@gmail.com
+									<br />
+									info@gmail.com
+								</small>
+							</div>
+						</div>
+						<!-- fourth card -->
+						<div class="col contact-bg-color border-dark-subtle border-top border-start">
+							<div class="p-5 text-center">
+								<img src="images/location.png" alt="Working Hours" />
+								<h5 class="my-3">Working Hours</h5>
+								<small>
+									Mon-Fri: 9AM to 5PM <br />
+									Sunday: 9AM to 1 PM
+								</small>
+							</div>
+						</div>
+					</div>
+
+					<!-- form -->
+					<form class="mb-5 mb-lg-0">
+						<input class="p-3 contact-bg-color rounded-2 form-control mb-3" type="text" placeholder="Your Name" />
+						<input class="p-3 contact-bg-color rounded-2 form-control mb-3" type="email" placeholder="Your Email" />
+						<input class="p-3 contact-bg-color rounded-2 form-control mb-3" type="text" placeholder="Subject" />
+						<textarea
+							class="p-3 contact-bg-color rounded-2 form-control mb-3"
+							cols="20"
+							rows="6"
+							placeholder="Your Message"
+						></textarea>
+						<button type="submit" class="btn j-btn-primary form-control p-3">Submit</button>
+					</form>
 				</div>
 			</div>
 		</section>

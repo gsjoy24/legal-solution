@@ -8,8 +8,15 @@
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
+h1,
+h2,
+h4,
+h5 {
+	color: #414040;
+}
 p {
 	font-size: 14px;
+	color: #707070;
 }
 section {
 	padding-top: 100px;
@@ -32,10 +39,6 @@ section {
 .navbar-toggler:focus {
 	box-shadow: none;
 }
-
-.header-title {
-	font-size: 60px;
-}
 /* ! custom button */
 .j-btn-primary {
 	background-color: #b68c5a;
@@ -54,6 +57,9 @@ section {
 }
 .banner-wrapper {
 	max-width: 800px;
+}
+.header-title {
+	font-size: 60px;
 }
 /* ! resizing the img in legal section */
 .legal-img {
@@ -106,6 +112,18 @@ section {
 	color: #000;
 	background-color: #e7e7e7;
 	box-shadow: none;
+}
+
+/* ! contact section */
+.contact-bg-color {
+	background-color: rgb(242, 241, 241);
+}
+.form-control {
+	border: 2px solid rgba(242, 241, 241, 0.02);
+}
+.form-control:focus {
+	box-shadow: none;
+	border: 2px solid #b68c5a;
 }
 @media only screen and (max-width: 768px) {
 	.header-title {
