@@ -47,7 +47,6 @@ section {
 }
 /* ! banner styles */
 .banner {
-	min-height: 80vh;
 	padding: 100px 0;
 	background-image: url('../images/Rectangle\ 6.png');
 	background-size: cover;
@@ -79,7 +78,6 @@ section {
 	background-color: rgba(0, 0, 0, 0.48);
 	background-blend-mode: overlay;
 }
-
 .client-img {
 	width: 100px;
 	height: 100px;
@@ -89,6 +87,25 @@ section {
 	max-width: 650px;
 	margin: auto;
 	padding: 0 10px;
+}
+
+/* ! faq section  */
+.accordion-item {
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background-color: #e7e7e7;
+}
+/* over righting bootstrap */
+.accordion-button:focus {
+	box-shadow: none;
+	border: none;
+}
+.accordion-button,
+.accordion-button:not(.collapsed) {
+	color: #000;
+	background-color: #e7e7e7;
+	box-shadow: none;
 }
 @media only screen and (max-width: 768px) {
 	.header-title {
